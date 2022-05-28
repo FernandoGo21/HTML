@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes</title>
+</head>
+<body>
+ <!--   <img> Este elemento inserta una imagen en el documento.
+    El elemento requiere del atributo src para especificar la 
+    URL del archivo con la imagen que queremos incorporar.
+    <picture> Este elemento inserta una imagen en el documento.
+        Trabaja junto con el elemento <source> para ofrecer
+        multiples imagenes en diferentes resoluciones. Es util 
+        para crear sitios web adaptables.
+    </picture>
+    <figure>Este elemento representa contenido asociado con
+        el contenido principal, pero que se puede eliminar sin 
+        que se vea afectado, como fotos, videos, etc.
+    </figure>
+    <figcaption>Este elemento introduce un titulo para el elemento</figcaption>
+    -->
+    <img width = "10%" height="10%" src="IMG/Strong_html.jpg" alt="Portada del curso HTML,CSS Y JS">
+    <!-- Su ancho o alto depende del contenedor en el que este dicha imagen, por ejemplo el contenedor
+    de esta imagen es el navegador como tal-->
+    <style>
+        .contenedorImagen1{
+            width: 250px;
+        }
+        .Nombreimg1{
+            width: 350px;
+            text-align: center;
+        }
+    </style>
+    <div class="contenedorImagen1">
+        <img width = "100%" src="IMG/etiquetas.jpg" alt="Imagen de HTML5">
+    </div>
+    <img width = "500px" height = "500px" src = "IMG/etiquetas.jpg" alt = "Imagen de HTML5">
+    <figure>
+        <div class = "Nombreimg1">
+        <img width = "100%" height = "100%" src = "IMG/etiquetas.jpg" alt = "Imagen de HTML5">
+        <figcaption>Portada del curso HTML</figcaption>
+        </div>
+    </figure>
+</body>
+</html>

@@ -12,3 +12,20 @@
 .titulopC{
     color: black;
 }
+p, li{
+    background: #000000;
+    color: white;
+}
+header p{
+    background: green;
+}
+section > p{
+    background: red;
+}
+h2 + li{
+    background: orange;
+}
+
+h3 ~ li{
+    background: gray;
+}

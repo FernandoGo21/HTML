@@ -1,0 +1,18 @@
+#contenedor{
+    border: solid 2px;
+    width: 600px;
+    height: 1500px;
+    margin: 200px auto;
+    padding:10px;
+    /*background-color: aqua;*/
+        background-image: url(../IMG/css.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+    background-attachment: scroll; 
+    background-origin: content-box;
+    /*background: red url(../IMG/css.jpg) repeat-y fixed;*/
+}
+#contenedor2{
+    height: 1200px;
+}

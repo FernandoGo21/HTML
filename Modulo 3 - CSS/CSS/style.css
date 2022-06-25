@@ -12,7 +12,7 @@
 .titulopC{
     color: black;
 }
-p, li{
+li{
     background: #000000;
     color: white;
 }
@@ -29,3 +29,82 @@ h2 + li{
 h3 ~ li{
     background: gray;
 }
+
+/* 
+Propiedades de texto - CSS
+*/
+#texto{
+    /*text-align: center;
+    text-align-last: left; */ 
+    text-indent: 50px; /*SANGRIA*/
+    letter-spacing: 1px; /* ESPACIADO */
+    line-height: 20px; /* ESPACIO ENTRE LINEA Y LINEA*/
+    word-spacing: 10px; /* ESPACIO ENTRE PALABRA Y PALABRA */
+}
+#texto img{
+    vertical-align: text-top;
+}
+#texto a{
+    text-decoration: none; /* PROPIEDAD PARA QUITAR SUBRAYADO A ENLACE, TAMBIEN
+    SE PUEDE USAR CON TEXTO*/
+}
+/* Estilos generales*/
+*{
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, Verdana;
+}
+.verdana{
+    font-family: Verdana;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p{
+    /*font: bold 17px Tahoma; */
+    font-size: 20px;
+}
+/* 
+Propiedades de colores - CSS
+*/
+h1 {
+    color: black;
+}
+
+/*
+rgb (red, green, blue)
+rgba (red, green, blue, canal alfa)
+    alfa desde 0 -- > 1, 0 transparente, y 1 totalmente color
+hsl (matiz,saturacion,luminosidad)
+hsla(matiz,saturacion,luminosidad,alfa)
+nombre del color
+color en hexadecimal
+
+*/
+
+/*
+Propiedades CSS - Tamaños
+*/
+
+section{
+    background: black;
+}
+section div{
+    width:500px;
+    height: 200px;
+    overflow: auto;
+    margin:auto;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px; /*Se agrega para rellenar, que el texto no se vea ahorillado o etc*/
+}
+
+#uno{
+    background: blue;
+}
+#dos{
+    background: red;
+}
+
+/*
+Propiedades CSS - Fondos
+*/

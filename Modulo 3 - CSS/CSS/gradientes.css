@@ -1,0 +1,28 @@
+    .caja{
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        border: solid 2px #D7D7D7;
+        margin-top: 100px;
+        background-color: black; 
+        background-image: linear-gradient(45deg,black,white,blue);
+        background-image: -webkit-linear-gradient(45deg,black,white,blue);
+        background-image: -moz-linear-gradient(45deg,black,white,blue);
+        background-image: -ms-linear-gradient(45deg,black,white,blue);
+    }
+
+
+
+    /*
+    background se usa por si el navegador no funciona con ninguna gradiente.
+    background-image
+    -webkit-linear-gradient para ver gradientes en Chrome
+    -moz-linear-gradient para ver gradientes en Mozilla Firefox
+    -ms-linear-gradient para ver Gradientes en Internet Explorer
+    50deg
+    top
+    right
+    center
+    bottom
+    left
+    */

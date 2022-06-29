@@ -1,0 +1,52 @@
+/*TRANSFORMACIONES 2D*/
+.contenedor{
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+.contenedor img{
+    width: 100%;
+    box-shadow: #808080 5px 5px 5px;
+    }
+.contenedor img:hover{ /* Se hace una transicion en el navegador*/
+    width: auto;
+    /*
+    Aumentar escala
+    transform: scale(1.5,1.5);
+
+    Escalar solo un eje
+    transform: scaleX(3);
+    transform: scaleY(3);
+
+    Rotar una imagen
+    transform: rotate(-45deg);
+    
+    Girarla en un
+    transform: skew(45deg);
+
+    Desplazar elemento en una condicion (x,y)
+    transform: translate(500px,50px);
+    
+    /*transition: 1s;*/
+}
+
+/*TRANSFORMACIONES 3D*/
+.svg{
+    width: 30%;
+}
+.svg:hover{
+    /*
+    scale3d(x, y, z) – Esta función asigna una nueva escala al elemento en un espacio 3D.
+
+    rotate3d(x, y, z, ángulo) – Esta función rota el elemento en un ángulo y sobre un eje específico.
+
+    translate3d(x, y, z) – Esta función mueve el elemento a una nueva posición en el espacio 3D.
+
+    perspective(valor) – Esta función agrega un efecto de profundidad a la escena incrementando el tamaño del lado del elemento cercano al espectador.
+    */
+    transform: scale(1.5, 1.5,1);
+    transform: rotate3d(5,5,5,180deg);
+    transform: translate3d(100px,50px,1px);
+    transform: perspective(50%);
+    transition: 1s;
+}

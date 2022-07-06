@@ -1,0 +1,56 @@
+.pelota{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    border-radius: 100px;
+    animation: recorrido 5s infinite;
+}
+@keyframes recorrido{
+    20%{transform: translate(1800px,0px);}
+    40%{transform: translate(1800px,800px);}
+    60%{transform: translate(0px,800px);}
+    80%{transform:translate(0px,0px)}
+    100%{transform:translate3d(1800px,800px,1800px);}
+}
+
+.luffy{
+    width: 200px;
+    margin: auto;
+    margin-top: 100px;
+    animation: escala 1s infinite;
+}
+@keyframes escala{
+    /*
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(2);
+    }
+    Cuando la animacion solo tiene inicio y fin (2 pasos)
+    */
+    0%{transform: scale(1);}
+    50%{transform: scale(1.5);}
+    100%{transform: scale(1);}
+}
+.luffy img{
+    width: 100%;
+}
+
+/*
+animation-name – Esta propiedad especifica el nombre usado para identificar los pasos de la animación. Podemos usar varias animaciones solo hay que separarlas por una coma.
+
+animation-duration – Esta propiedad determina la duración de cada ciclo de animación. 
+
+animation-timing-fuction – Esta propiedad determina cómo se llevará a cabo el proceso de animación por medio de una curva Bézier declara con los valores ease, linear, ease-in, ease-in, ease-out y ease-in-out.
+
+animation-delay – Esta propiedad especifica el tiempo que el navegador esperará antes de iniciar la animación.
+
+animation-iteration-count – Esta propiedad declara la cantidad de veces que se ejecutará la animación. Acepta un número entero o el valor infinite, el cual hace que la animación se ejecute por tiempo indefinido. El valor por defecto es 1. 
+
+animation-direction – Esta propiedad declara la dirección de la animación. Acepta cuatro valores: normal (por defecto), reverse, alternate, y alternate-reverse. El valor reverse invierte la dirección de la animación, mostrando los pasos en la dirección opuesta en la que se han declarado. El valor alternate mezcla los ciclos de la animación, reproduciendo los que tienen un índice impar en dirección normal y el resto en dirección invertida. Finalmente, el valor alternate-reverse hace lo mismo que alternate, pero en sentido inverso. 
+
+animation-fill-mode – Esta propiedad define cómo afecta la animación a los estilos del elemento. Acepta los valores none (por defecto), forwards, backwards, y both. El valor forwards mantiene al elemento con los estilos definidos por las propiedades aplicadas en el último paso de la animación, mientras que backwards aplica los estilos del primer paso tan pronto como se define la animación (antes de ser ejecutada). Finalmente, el valor both produce ambos efectos. 
+
+animation – Esta propiedad nos permite definir todos los valores de la animación al mismo tiempo.
+*/

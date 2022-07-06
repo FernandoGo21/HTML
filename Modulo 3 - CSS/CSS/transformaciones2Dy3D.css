@@ -48,5 +48,5 @@
     transform: rotate3d(5,5,5,180deg);
     transform: translate3d(100px,50px,1px);
     transform: perspective(50%);
-    transition: 1s;
+    transition: 1s; /*Hace que se vea mas real*/
 }
